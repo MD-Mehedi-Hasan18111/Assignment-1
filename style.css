@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/***** Top Banner Section *****/
+.top-banner{
+    background-image: url('img/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.intro{
+    margin: 60px 0 0 50px;
+}
+
+.intro h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.intro h1{
+    font-size: 45px;
+    color: #e84393;
+    font-weight: 800;
+    margin: 0;
+}
+
+.half{
+    width: 50%;
+    padding: 5%;
+}
+
+.half img{
+    width: 85%;
+}
+
+.half p{
+    margin-bottom: 50px;
+    color: #636e72;
+}
+
+.top-btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #f953c6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #b91d73, #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+/*******Biography Section *******/
+
+.biography{
+    background-image: url('img/biography-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.bio-btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+/******* Latest Work *******/
+
+.work{
+    background-image: url('img/latest-work-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 6% 10%;
+}
+
+.work h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.container{
+    display: flex;
+}
+
+.work img{
+    width: 100%;
+}
+
+.work-img{
+    margin: 20px;
+}
+
+/******* Client Section *******/
+
+.client{
+    background-image: url('img/footer-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    text-align: center;
+    color: #2d3436;
+    padding-bottom: 50px;
+}
+
+.client h1{
+    font-size: 35px;
+    margin: 40px 0;
+    padding-bottom: 20px;
+}
+
+.client-name{
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+
+.client .para{
+    padding-bottom: 40px;
+}
+
+.title{
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.mail{
+    width: 32%;
+    background-color: #e84393;
+    margin: 0 auto;
+    padding: 20px 60px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.mail h2{
+    font-size: 22px;
+}
+
+/********* Footer Section *********/
+
+footer{
+    text-align: center;
+    color: #636e72;
+}
